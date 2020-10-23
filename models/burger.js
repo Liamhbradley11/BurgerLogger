@@ -19,12 +19,7 @@ var burger = {
         cb(res);
       });
     }
-    // ADD COMMA ABOVE TO PUT BACK DELETE
-    // delete: function(condition, cb) {
-    //   orm.delete("burgers", condition, function(res) {
-    //     cb(res);
-    //   });
-    // }
+
   };
   
   // Export the database functions for the controller (burgersController.js).
